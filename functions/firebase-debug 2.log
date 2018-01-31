@@ -1,0 +1,27 @@
+[debug] [2017-12-29T03:08:13.844Z] ----------------------------------------------------------------------
+[debug] [2017-12-29T03:08:13.850Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only functions
+[debug] [2017-12-29T03:08:13.850Z] CLI Version:   3.16.0
+[debug] [2017-12-29T03:08:13.850Z] Platform:      darwin
+[debug] [2017-12-29T03:08:13.850Z] Node Version:  v8.9.0
+[debug] [2017-12-29T03:08:13.854Z] Time:          Thu Dec 28 2017 19:08:13 GMT-0800 (PST)
+[debug] [2017-12-29T03:08:13.854Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-29T03:08:13.924Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-29T03:08:13.925Z] > authorizing via signed-in user
+[debug] [2017-12-29T03:08:13.931Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-29T03:08:13.933Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/MoFL5ZPbj6l5k1dZnu0JTfxktlKR0HyFEUIpg3l6hH0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Dec 28 2017 19:08:13 GMT-0800 (PST)
+[debug] [2017-12-29T03:08:14.632Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T03:08:14.655Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hellomoon-dev2  
+  
+ Thu Dec 28 2017 19:08:14 GMT-0800 (PST)
+[debug] [2017-12-29T03:08:16.736Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-29T03:08:16.737Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hellomoon-dev2/tokens  
+  
+ Thu Dec 28 2017 19:08:16 GMT-0800 (PST)
+[debug] [2017-12-29T03:08:17.524Z] <<< HTTP RESPONSE 200

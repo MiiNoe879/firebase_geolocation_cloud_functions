@@ -1,0 +1,24 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@google-cloud/logging": "^1.1.1",
+    "@google/maps": "^0.4.5",
+    "firebase": "^4.7.0",
+    "firebase-admin": "^5.5.1",
+    "firebase-functions": "^0.7.3",
+    "geofire": "^4.1.2",
+    "install": "^0.10.2",
+    "npm": "^5.6.0",
+    "save": "^2.3.1",
+    "stripe": "^5.4.0"
+  },
+  "private": true
+}
